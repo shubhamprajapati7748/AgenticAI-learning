@@ -1,0 +1,21 @@
+The Transformer model, introduced in the paper “Attention is All You Need” by Vaswani et al. in 2017, marked a significant departure from previous deep learning architectures used for natural language processing (NLP).
+
+Prior to Transformers, models like Recurrent Neural Networks (RNNs) and Long Short-Term Memory networks (LSTMs) were the go-to methods for handling sequential data. 
+
+However, these models processed data step by step, leading to slower training times and limitations in capturing long-range dependencies. 
+
+The Transformer, in contrast, uses a mechanism called self-attention that enables it to process entire sequences of data in parallel, making it much faster and more effective at capturing complex relationships between words, regardless of their distance in the sequence.
+
+At the heart of the Transformer architecture lies the self-attention mechanism. Self-attention allows each token in a sequence to interact with every other token in the sequence, computing a weighted representation of the input sequence. 
+
+This mechanism helps the model understand contextual relationships between words even if they are far apart. 
+
+For example, in the sentence “The cat sat on the mat,” the word “cat” is highly relevant to “sat,” but less so to “mat.” Self-attention allows the model to assign higher attention to "cat" and "sat" than "cat" and "mat." 
+
+This ability to weigh token importance dynamically is what gives Transformers their superior performance in NLP tasks
+
+The Transformer model follows an encoder-decoder architecture, which can be seen in models like Machine Translation where an input sentence in one language is encoded and then decoded into another language. The encoder is responsible for processing the input sequence and producing a set of representations. 
+
+The decoder, on the other hand, takes this encoded information and generates the output sequence. Both the encoder and decoder consist of multiple layers of self-attention and feed-forward neural networks. 
+
+The encoder’s layers work to capture the relationships in the input, while the decoder generates the output while attending to both the encoder’s output and previous tokens of the output sequence.

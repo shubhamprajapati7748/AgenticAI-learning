@@ -1,0 +1,57 @@
+python-dotenv
+
+## LangChain 
+langchain
+langchain_community
+# pypdf
+# bs4
+# arxiv
+# pymupdf
+# wikipedia
+# ipykernel
+# langchain-text-splitters
+# lxml
+langchain_openai
+# chromadb
+# sentence_transformers
+# langchain_huggingface
+# faiss-cpu
+# langchain_chroma
+langchain_groq
+langchain_core
+# faiss-cpu
+# langchain_chroma
+# langchain_huggingface
+
+## Misc
+# pypdf
+# bs4
+# arxiv
+# pymupdf
+# wikipedia
+# ipykernel
+# langchain-text-splitters
+# lxml
+# langchain_openai
+# chromadb
+# sentence_transformers
+
+# fastapi
+# uvicorn
+# langserve
+# sse_starlette
+# fastapi
+
+## HuggingFace 
+# transformers 
+
+## LangGraph 
+# langgraph
+# langgraph-cli[inmem]
+
+## CrewAI
+crewai
+crewai-tools
+# transformers 
+langgraph
+langgraph-cli[inmem]
