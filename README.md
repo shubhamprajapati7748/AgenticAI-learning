@@ -1,4 +1,4 @@
-# Langchain Learnings
+# Agentic-AI Learnings
 
 ## Todos
 1. Complete Session On Knowledge Graph and GraphDb With Langchain : https://www.youtube.com/watch?v=hsOJhs3_UCM
