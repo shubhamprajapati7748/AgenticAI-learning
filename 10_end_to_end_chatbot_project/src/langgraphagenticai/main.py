@@ -44,7 +44,6 @@ def load_langgraph_agenticai_app():
                     st.error("Error: No use case selected.")
                     return
                 
-
                 ### Graph Builder
                 graph_builder=GraphBuilder(model)
                 try:
@@ -54,13 +53,6 @@ def load_langgraph_agenticai_app():
                     st.error(f"Error: Graph setup failed - {e}")
                     return
                 
-
             except Exception as e:
                  raise ValueError(f"Error Occurred with Exception : {e}")
-            
-
-        
-
-   
-
     
