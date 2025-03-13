@@ -1,8 +1,9 @@
 python-dotenv
+ipykernel
 
 ## LangChain 
-langchain
-langchain_community
+# langchain
+# langchain_community
 # pypdf
 # bs4
 # arxiv
@@ -11,14 +12,14 @@ langchain_community
 # ipykernel
 # langchain-text-splitters
 # lxml
-langchain_openai
+# langchain_openai
 # chromadb
 # sentence_transformers
 # langchain_huggingface
 # faiss-cpu
 # langchain_chroma
-langchain_groq
-langchain_core
+# langchain_groq
+# langchain_core
 # faiss-cpu
 # langchain_chroma
 # langchain_huggingface
@@ -50,8 +51,27 @@ langchain_core
 # langgraph-cli[inmem]
 
 ## CrewAI
-crewai
-crewai-tools
-# transformers 
-langgraph
-langgraph-cli[inmem]
+# crewai
+# crewai-tools
+# # transformers 
+# langgraph
+# langgraph-cli[inmem]
+
+
+## Agno
+agno
+openai
+python-dotenv
+duckduckgo-search
+pypdf
+lancedb 
+tantivy
+streamlit 
+pandas
+yfinance
+openai 
+duckduckgo-search 
+yfinance 
+sqlalchemy 
+fastapi[standard]
+
